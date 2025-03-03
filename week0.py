@@ -14,7 +14,14 @@
 def dose(needs):
     #YOUR SOLUTION STARTS HERE
 
-attributes={'HP': 7, 'Attack':  , 'Defense':  , 'Special Attack':  , 'Special Defense'  , 'Speed':  }
+
+
+attributes={'HP': , 'Attack': , 'Defense':  , 'Special Attack':  , 'Special Defense'  , 'Speed':  }
+
+
+def test_ex2(case, expected):
+	assert dose(case) == expected
+
 
 
 

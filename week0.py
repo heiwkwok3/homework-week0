@@ -21,16 +21,16 @@ list1= ['HP', 'Attack', 'Defense', 'Special Attack', 'Special Defense', 'Speed']
 if sum(needs) >=500:
    print ('No medicine given')
     
-for attribute in list1[0:6]:
+for needs in list1[0:6]:
 if list1.values[0:6] >=250:
    print ('No medicine given')
 
-else attribute%10 
-    for attribute in list1[0:6]:
+else needs%10 
+    for needs in list1[0:6]:
     l== [vitamin, injections]
-    if attribute%10 = 0
-    vitamin = attribute//10
-    else injections = attribute%10
+    if needs%10 = 0
+    vitamin = needs//10
+    else injections = needs%10
 print(l)
 
 

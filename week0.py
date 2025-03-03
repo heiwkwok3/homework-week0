@@ -19,7 +19,7 @@ def dose(needs):
 list1= ['HP', 'Attack', 'Defense', 'Special Attack', 'Special Defense', 'Speed']
 
 if sum(needs) <=500:
-	else print ('No medicine given')
+    else print ('No medicine given')
     
 for attribute in list1[0:6]:
 if list1.values[0:6] <=250:

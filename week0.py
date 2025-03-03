@@ -16,13 +16,13 @@ def dose(needs):
 
 
 
-list1= ['HP', 'Attack', 'Defense', 'Special Attack', 'Special Defense', 'Speed']
+needs= ['HP', 'Attack', 'Defense', 'Special Attack', 'Special Defense', 'Speed']
 
 if sum(needs) >=500:
    print ('No medicine given')
     
 for needs in list1[0:6]:
-if list1.values[0:6] >=250:
+if needs.values[0:6] >=250:
    print ('No medicine given')
 
 else needs%10 

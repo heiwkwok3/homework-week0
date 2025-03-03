@@ -18,15 +18,17 @@ def dose(needs):
 
 list1= ['HP', 'Attack', 'Defense', 'Special Attack', 'Special Defense', 'Speed']
 
-for  in lst1[0:6]:
-    if 
+if sum(needs) <=500
+    for attributes in list1[0:6]:
+    if list1.values[0:6] <=250:
+    
+
+else print ('No medicine given')
+
     
 
 print(lst1.values[0:6]) # starts from index 0, ends at position 4-1 = index 3. 
 
-for  in lst1[0:6]:
-    print(char)
-    
 
 def test_ex2(case, expected):
 	assert dose(case) == expected
